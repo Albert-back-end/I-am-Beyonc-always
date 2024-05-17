@@ -1,0 +1,173 @@
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #cbc5c5;
+}
+
+font-face {
+    font-family: "Futura";
+    src: url(./fonts/FUTURA75BOLD.TTF);
+}
+
+@font-face {
+    font-family: "Impact";
+    src: url(./fonts/ofont.ru_Impact.ttf);
+}
+
+body {
+    width: 600px;
+    margin: 0 auto; /* Центрируем содержимое */
+    padding: 0px;
+    background-color: #fff;
+}
+
+header {
+    background-color: #1B54DD;
+    color: #fff;
+    padding: 32px 250px;
+}
+
+.logo {
+    font-family: Impact;
+    text-align: center;
+    font-weight: 900px;
+    width: 100px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 31px;
+    letter-spacing: 0.5px;
+}
+
+.mini-logo {
+    font-family: Futura;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    font-size: 9px;
+    letter-spacing: 1.64px;
+}
+
+.main-h1 {
+    margin: 32px 60px;
+}
+
+.main-h1 h1 {
+    font-family: Inter;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 43.57px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 32px auto 32px auto;
+}
+
+.button-gta {
+    width: Hug (110px)px;
+    height: Hug (41px)px;
+    padding: 12px 24px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #1B54DD;
+    border: none;
+}
+
+.button-gta a {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-gta:hover {
+    background-color: rgb(59, 76, 162);
+    color: #c3c1c1;
+}
+
+.image {
+    width: 480px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 32px;
+}
+
+.description p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 32px;
+    max-width: 480px;
+}
+
+footer {
+    background-color: #E8E8E8;
+    justify-content: center;
+    padding: 26px 180px;
+    margin: 0 auto;
+}
+
+.link-icons {
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.linl-icons a {
+    width: 18px;
+    height: 14.63px;
+    top: 1.69px;
+    margin-left: 50px;
+}
+
+.link {
+    padding-top: 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.link a:hover {
+    color: #797676;
+}
+
+.description-footer {
+    margin: 0 auto;
+}
+
+.description-footer p {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    max-width: 40px;
+}
+
+.DMI {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
